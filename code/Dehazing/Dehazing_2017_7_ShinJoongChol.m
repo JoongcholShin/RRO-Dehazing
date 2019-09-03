@@ -49,6 +49,8 @@ kappa=1.5;
 
 guidence=min(min(img(:,:,1),img(:,:,2)),img(:,:,3));
 
+
+
 times.initialize_time=toc(initialize_time);
 disp('initialize_time')
 disp(times.initialize_time)
@@ -82,7 +84,12 @@ ref2(:,:,3)=A(3)+(img(:,:,3)-A(3))./max(cores_t,0.01);
 %==========================================================================
 %% Haze Destribution Prior
 Transmission_time=tic;
-[t, Corse, d_J, d_Jtild]=HDP(img, ref2, A, w, phi,psai);
+
+RefR=load('dataset\totalR.mat');
+RefG=load('dataset\totalG.mat');
+RefB=load('dataset\totalB.mat');
+
+[t, Corse, d_J, d_Jtild]=HDP(img, ref2, A, w, phi, psai, RefR, RefG, RefB);
 
 
 
