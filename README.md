@@ -15,13 +15,15 @@ J. Shin, M. Kim, J. Paik, and S. Lee, "Radiance-Reflectance Combined Optimizatio
 ## Citation
 Please cite the paper if you find the code useful.
 
-<pre>@article{shin2019radiance, 
-author={J. {Shin} and M. {Kim} and J. {Paik} and S. {Lee}}, 
-journal={IEEE Transactions on Multimedia}, 
-title={Radiance-Reflectance Combined Optimization and Structure-Guided L0-Norm for Single Image Dehazing}, 
-year={2019}, 
-volume={}, 
-number={}, 
-pages={1-1},
-publisher={IEEE}
-}<code>
+<pre>@ARTICLE{8734728,
+author={J. {Shin} and M. {Kim} and J. {Paik} and S. {Lee}},
+journal={IEEE Transactions on Multimedia},
+title={Radiance–Reflectance Combined Optimization and Structure-Guided $\ell _0$-Norm for Single Image Dehazing},
+year={2020},
+volume={22},
+number={1},
+pages={30-44},
+keywords={Image color analysis;Atmospheric modeling;Histograms;Image edge detection;Optimization;Estimation;Cameras; $\ell _0$ -norm;gradient;dehazing;edge-preserving filtering;optimization;guided filtering},
+doi={10.1109/TMM.2019.2922127},
+ISSN={1941-0077},
+month={Jan},}<code>
