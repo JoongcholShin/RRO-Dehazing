@@ -23,7 +23,4 @@ year={2020},
 volume={22},
 number={1},
 pages={30-44},
-keywords={Image color analysis;Atmospheric modeling;Histograms;Image edge detection;Optimization;Estimation;Cameras; $\ell _0$ -norm;gradient;dehazing;edge-preserving filtering;optimization;guided filtering},
-doi={10.1109/TMM.2019.2922127},
-ISSN={1941-0077},
 month={Jan},}<code>
