@@ -1,5 +1,5 @@
 # Radiance-Reflectance Combined Optimization and Structure-Guided L0-Norm for Single Image Dehazing
-J. Shin, M. Kim, J. Paik, and S. Lee, "Radiance-Reflectance Combined Optimization and Structure-Guided L0-Norm for Single Image Dehazing," **_IEEE Transactions on Multimedia_**, 2019 [[PDF]](https://ieeexplore.ieee.org/document/8734728)
+J. Shin, M. Kim, J. Paik, and S. Lee, "Radiance-Reflectance Combined Optimization and Structure-Guided L0-Norm for Single Image Dehazing," **_IEEE Transactions on Multimedia_**, 2020 [[PDF]](https://ieeexplore.ieee.org/document/8734728)
 
 
 ## Running
