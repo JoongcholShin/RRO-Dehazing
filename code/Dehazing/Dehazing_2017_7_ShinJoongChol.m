@@ -47,7 +47,7 @@ w=0.9;
 lambda=0.005;
 kappa=1.5;
 
-guidence=min(min(img(:,:,1),img(:,:,2)),img(:,:,3));
+guidance=min(min(img(:,:,1),img(:,:,2)),img(:,:,3));
 
 
 
@@ -59,7 +59,7 @@ disp(times.initialize_time)
 Airlight_time=tic;
 
 A=zeros(3,1);
-[Block,AH,AW]=quadtreeitr(guidence,4);
+[Block,AH,AW]=quadtreeitr(guidance,4);
 AH=fix(AH);
 AW=fix(AW);
 BH=AH+size(Block,1)-4;
@@ -101,10 +101,10 @@ disp(times.Transmission_time)
 %% transmission refinement
 
 RefineTransmission_time=tic;
-guidence=1-guidence./min(A(:));
+guidance=1-guidance./min(A(:));
 
 
-[t_hat,Gd]=GL0Smoothing(guidence,lambda,kappa,t);
+[t_hat,Gd]=GL0Smoothing(guidance,lambda,kappa,t);
 
 t_hat=max(t_hat,Gd);
 
