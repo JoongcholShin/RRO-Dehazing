@@ -8,7 +8,7 @@ J. Shin, M. Kim, J. Paik, and S. Lee, "Radiance-Reflectance Combined Optimizatio
 
 `./code/Dehazing/Dehazing_2017_7_ShinJoongChol.m`
 ### SL0 Filter
-<img src="/code/EdgePerservingSmoothing/save/baboon_original.png" width="200" height="200"> <img src="/code/EdgePerservingSmoothing/save/baboon_S_GL0.png" width="200" height="200"> <img src="/code/EdgePerservingSmoothing/save/pnrimage2_original.png" width="200" height="200"> <img src="/code/EdgePerservingSmoothing/save/pnrimage2_S_GL0.png" width="200" height="200">
+<img src="/code/EdgePreservingSmoothing/save/baboon_original.png" width="200" height="200"> <img src="/code/EdgePreservingSmoothing/save/baboon_S_GL0.png" width="200" height="200"> <img src="/code/EdgePreservingSmoothing/save/pnrimage2_original.png" width="200" height="200"> <img src="/code/EdgePreservingSmoothing/save/pnrimage2_S_GL0.png" width="200" height="200">
 
 `./code/EdgePerservingSmoothing/testEPS.m`
 
